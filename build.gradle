@@ -17,9 +17,9 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "0.0.3"
+version = "1.6.4-0.0.5"
 group= "info.coremodding.craftenchants" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "craftenchants"
+archivesBaseName = "CraftableEnchantments"
 
 minecraft {
     version = "1.6.4-9.11.1.964"
