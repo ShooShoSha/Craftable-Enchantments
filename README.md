@@ -3,6 +3,15 @@ Craftable-Enchantments
 
 Minecraft Forge Mod where enchantments are made on the crafting table.
 
+# Downloads
+You can get the latest version from [__Curse__](http://www.curse.com/mc-mods/minecraft/221217-craftable-enchantments)
+You can see the project page from [__CurseForge__](http://minecraft.curseforge.com/mc-mods/221217-craftable-enchantments)
+
+# Wiki
+As best of an attempt to document the mod on the [Wiki](https://github.com/CoreModding/Craftable-Enchantments/wiki)
+
+# Issues
+If you find a bug, exploit, or issue with using the mod open a topic on the [Issue Tracker](https://github.com/CoreModding/Craftable-Enchantments/issues)
 # Contributing
 
 In order to contribute to _this_ repository (repo), do the following:
