@@ -1,0 +1,19 @@
+itemGroup.craftenchants=Craftable Enchantments
+
+#Item localizations
+##Components
+item.craftenchants:horsehair.name=Horse Hair
+
+##Enchantments
+item.craftenchants:armorkit.name=Armour Kit
+item.craftenchants:blastresistpad.name=Blast Resist Pad
+item.craftenchants:counterweightiron.name=Iron Counter Weight
+item.craftenchants:counterweightstone.name=Stone Counter Weight
+item.craftenchants:fireoil.name=Fire Oil
+item.craftenchants:flameresistcream.name=Flame Resistant Cream
+item.craftenchants:flameresistantcream.name=Flame Resistant Cream
+item.craftenchants:studsiron.name=Iron Studs
+item.craftenchants:reinforcednock.name=Reinforced Nock
+item.craftenchants:sharpeningstone.name=Sharpening Stone
+item.craftenchants:snorkle.name=Snorkle
+item.craftenchants:woolpadding.name=Wool padding
