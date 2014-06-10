@@ -9,8 +9,8 @@ import net.minecraft.enchantment.Enchantment;
 import info.coremodding.craftenchants.item.ItemCE;
 
 public class ReinforcedNock extends ItemCE {
-  public ReinforcedNock(int id) {
-    super(id, "reinforcednock");
+  public ReinforcedNock() {
+    super("reinforcednock");
     setEnchantment(Enchantment.power, 2);
   }
 

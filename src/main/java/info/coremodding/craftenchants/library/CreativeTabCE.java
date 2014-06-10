@@ -4,30 +4,30 @@
  */
 package info.coremodding.craftenchants.library;
 
-import net.minecraft.block.Block;
-import net.minecraft.creativetab.CreativeTabs;
-
 import info.coremodding.craftenchants.CraftableEnchantments;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
 
 /**
  * The singleton mod creative tab.
  */
 public class CreativeTabCE extends CreativeTabs {
-  private static final CreativeTabCE instance = new CreativeTabCE();
+	private static final CreativeTabCE instance = new CreativeTabCE();
 
-  /**
-   * The class constructor
-   */
-  private CreativeTabCE() {
-    super(CreativeTabs.getNextID(), CraftableEnchantments.ID);
-  }
+	/**
+	 * The class constructor
+	 */
+	private CreativeTabCE() {
+		super(CreativeTabs.getNextID(), CraftableEnchantments.ID);
+	}
 
-  public static CreativeTabCE getInstance() {
-    return instance;
-  }
+	public static CreativeTabCE getInstance() {
+		return instance;
+	}
 
-  @Override
-  public int getTabIconItemIndex() {
-    return Block.anvil.blockID;
-  }
+	@Override
+	public Item getTabIconItem() {
+		return Item.getItemFromBlock(Blocks.anvil);
+	}
 }

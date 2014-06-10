@@ -4,25 +4,24 @@
  */
 package info.coremodding.craftenchants.item.enchants;
 
-import net.minecraft.enchantment.Enchantment;
-import net.minecraft.item.EnumToolMaterial;
-
 import info.coremodding.craftenchants.item.ItemCE;
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.item.Item;
 
 public class Studs extends ItemCE implements EnchantsMaterial {
-  private EnumToolMaterial enchantMaterial;
+	private Item.ToolMaterial enchantMaterial;
 
-  /**
-   * @param id
-   * @param enchantMaterial
-   */
-  public Studs(int id, EnumToolMaterial enchantMaterial) {
-    super(id, "studs" + enchantMaterial.toString().toLowerCase());
-    this.enchantMaterial = enchantMaterial;
-    setEnchantment(Enchantment.thorns, getMaterialEnchantmentLevel());
-  }
+	/**
+	 * @param id
+	 * @param enchantMaterial
+	 */
+	public Studs(Item.ToolMaterial enchantMaterial) {
+		super("studs" + enchantMaterial.toString().toLowerCase());
+		this.enchantMaterial = enchantMaterial;
+		setEnchantment(Enchantment.thorns, getMaterialEnchantmentLevel());
+	}
 
-  public int getMaterialEnchantmentLevel() {
-    return this.enchantMaterial.getHarvestLevel();
-  }
+	public int getMaterialEnchantmentLevel() {
+		return this.enchantMaterial.getHarvestLevel();
+	}
 }

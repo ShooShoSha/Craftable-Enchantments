@@ -11,8 +11,8 @@ import info.coremodding.craftenchants.item.ItemCE;
 
 public class FireOil extends ItemCE {
 
-  public FireOil(int id) {
-    super(id, "fireoil");
+  public FireOil() {
+    super("fireoil");
     setEnchantment(Enchantment.fireAspect, 1);
   }
 

@@ -10,8 +10,8 @@ import info.coremodding.craftenchants.item.ItemCE;
 
 public class SharpeningStone extends ItemCE {
 
-  public SharpeningStone(int id) {
-    super(id, "sharpeningstone");
+  public SharpeningStone() {
+    super("sharpeningstone");
     setEnchantment(Enchantment.sharpness, 1);
   }
 }

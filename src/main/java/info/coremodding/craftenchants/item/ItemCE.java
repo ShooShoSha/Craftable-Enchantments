@@ -15,8 +15,8 @@ public abstract class ItemCE extends Item implements Enchants {
   private Enchantment enchantType;
   private int enchantLevel;
 
-  protected ItemCE(int id, String unlocalName) {
-    super(id);
+  protected ItemCE(String unlocalName) {
+    super();
     setCreativeTab(Proxy.tabMain);
     setUnlocalizedName(CraftableEnchantments.ID + ":" + unlocalName);
     setTextureName(CraftableEnchantments.ID + ":" + unlocalName);

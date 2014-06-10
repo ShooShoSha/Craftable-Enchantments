@@ -10,8 +10,8 @@ import info.coremodding.craftenchants.item.ItemCE;
 
 public class ArmorKit extends ItemCE {
 
-  public ArmorKit(int id) {
-    super(id, "armorkit");
+  public ArmorKit() {
+    super("armorkit");
     setEnchantment(Enchantment.unbreaking, 1);
   }
 

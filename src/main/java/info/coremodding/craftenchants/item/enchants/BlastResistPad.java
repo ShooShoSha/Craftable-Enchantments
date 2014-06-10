@@ -9,8 +9,8 @@ import net.minecraft.enchantment.Enchantment;
 import info.coremodding.craftenchants.item.ItemCE;
 
 public class BlastResistPad extends ItemCE {
-  public BlastResistPad(int id) {
-    super(id, "blastresistpad");
+  public BlastResistPad() {
+    super("blastresistpad");
     setEnchantment(Enchantment.blastProtection, 2);
   }
 

@@ -11,8 +11,8 @@ import info.coremodding.craftenchants.item.ItemCE;
 
 public class FlameResistantCream extends ItemCE {
 
-  public FlameResistantCream(int id) {
-    super(id, "flameresistcream");
+  public FlameResistantCream() {
+    super("flameresistcream");
     setEnchantment(Enchantment.fireProtection, 2);
   }
 
