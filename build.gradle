@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.6.4-1.0.12"
-group= "info.coremodding.craftenchants" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "CraftableEnchantments"
+version = "${minecraft_version}-${mod_version}.${mod_build}"
+group= "info.coremodding.${mod_id}" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "${mod_base}"
 
 minecraft {
-    version = "1.6.4-9.11.1.964"
+    version = "${minecraft_version}-${forge_version}"
     assetDir = "eclipse/assets"
 }
 

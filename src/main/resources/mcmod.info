@@ -1,0 +1,15 @@
+[
+{
+  "modid": "craftenchants",
+  "name": "Craftable Enchantments",
+  "description": "Enchantments from your crafting table.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url":  "http://www.coremodding.info/",
+  "updateUrl": "http://www.curse.com/mc-mods/minecraft/221217-craftable-enchantments",
+  "authors": ["shooshosha", "Core Modding"],
+  "credits": "",
+  "screenshots": [],
+  "requiredMods": ["Forge"],
+}
+]
