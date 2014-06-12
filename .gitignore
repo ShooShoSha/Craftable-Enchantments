@@ -1,4 +1,5 @@
 /bin
+/build
 /eclipse
 /.settings
 /.gradle
