@@ -31,6 +31,12 @@ minecraft {
    }
 }
 
+jar {
+    from(projectDir) {
+        include '*.license'
+   }
+}
+
 processResources
 {
     // this will ensure that this task is redone when the versions change.
