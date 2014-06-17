@@ -1,0 +1,7 @@
+#Gradlew specific
+/.gradle
+
+#Eclipse specific
+/.settings
+/.classpath
+/.project
