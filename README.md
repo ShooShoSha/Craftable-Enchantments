@@ -1,7 +1,7 @@
 Craftable-Enchantments
 ======================
 
-Minecraft Forge Mod where enchantments are made on the crafting table.
+Mod where enchantments are made on the crafting table.
 
 # Downloads
 You can get the latest version from [__Curse__](http://www.curse.com/mc-mods/minecraft/221217-craftable-enchantments)
