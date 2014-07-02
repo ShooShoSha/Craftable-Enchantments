@@ -1,9 +1,13 @@
-language: groovy
+language: java
 jdk:
   - oraclejdk7
-  - oraclejdk6
-  - openjdk6
-before_script:
-  - cd build/
+
+before_install:
+  - cd build
   - ls -al
-script: ./gradlew build
+install: ./gradlew setupCIWorkspace -S
+script: ./gradlew build -S
+
+env:
+  global:
+    TERM=dumb
