@@ -33,10 +33,10 @@ def root = project.projectDir.parentFile
 sourceSets {
     main {
         java {
-            srcDir new File(root, ${project.source})
+            srcDir new File(root, project.source)
         }
         resources {
-            srcDir new File(root, ${project.assets})
+            srcDir new File(root, project.assets)
         }
     }
 }
