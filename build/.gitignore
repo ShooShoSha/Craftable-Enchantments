@@ -1,5 +1,8 @@
 #Gradlew specific
 /.gradle
+/bin
+/build
+/run
 
 #Eclipse specific
 /.settings

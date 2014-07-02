@@ -36,3 +36,6 @@ In order to contribute to _this_ repository (repo), do the following:
 8. Comment with specifics and reasons it should merge with _our_ repo
 
 After that, the changes will be reviewed. We may make comments on its acceptance, why it won't be accepted, or what would make it better before making the merge.
+
+# License
+Unless otherwise specified, source code in this repository is licensed under GNU Lesser General Public License version 3 or later. Any assets incorporated from the source code (text, textures, et cetera), are licensed under Creative Commons Attribution 4.0 unless otherwise specified.
