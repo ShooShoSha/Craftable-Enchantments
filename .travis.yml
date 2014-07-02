@@ -3,4 +3,5 @@ jdk:
   - oraclejdk7
   - oraclejdk6
   - openjdk6
-script: ./build/gradlew build
+before_script: cd build/
+script: ./gradlew build
