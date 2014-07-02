@@ -1,7 +1,6 @@
 Craftable-Enchantments
-[![Build Status](https://travis-ci.org/CoreModding/Craftable-Enchantments.svg?branch=release)](https://travis-ci.org/CoreModding/Craftable-Enchantments)
 ======================
-
+[![Build Status](https://travis-ci.org/CoreModding/Craftable-Enchantments.svg?branch=release)](https://travis-ci.org/CoreModding/Craftable-Enchantments)
 Mod where enchantments are made on the crafting table.
 
 # Downloads
