@@ -1,1 +1,22 @@
-language: groovy
+language: java
+jdk:
+  - oraclejdk7
+
+before_install:
+  - cd build
+  - chmod +x gradlew
+install: ./gradlew setupCIWorkspace -S
+script: ./gradlew build -S
+
+env:
+  global:
+    TERM=dumb
+
+deploy:
+  provider: releases
+  api-key: ""
+  file: "build/*.jar"
+  skip_cleanup: true
+  on:
+    tags: true
+    branch: release
