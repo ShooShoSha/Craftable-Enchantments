@@ -1,6 +1,6 @@
 Craftable-Enchantments
 ======================
-[![Build Status](https://travis-ci.org/ShooShoSha/Craftable-Enchantments.svg?branch=release)](https://travis-ci.org/ShooShoSha/Craftable-Enchantments)
+[![Build Status](https://travis-ci.org/ShooShoSha/Craftable-Enchantments.svg?branch=master)](https://travis-ci.org/ShooShoSha/Craftable-Enchantments)
 Mod where enchantments are made on the crafting table.
 
 # Downloads
