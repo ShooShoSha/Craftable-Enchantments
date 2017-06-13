@@ -5,7 +5,7 @@ Mod where enchantments are made on the crafting table.
 
 # Downloads
 You can get the latest version from [__Curse__](http://www.curse.com/mc-mods/minecraft/221217-craftable-enchantments)
-You can see the project page from [__CurseForge__](http://minecraft.curseforge.com/mc-mods/221217-craftable-enchantments)
+You can see the project page from [__CurseForge__](https://minecraft.curseforge.com/projects/craftable-enchantments)
 
 # Wiki
 As best of an attempt to document the mod on the [Wiki](https://github.com/ShooShoSha/Craftable-Enchantments/wiki)
